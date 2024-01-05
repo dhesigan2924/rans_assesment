@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/window.css" rel="stylesheet">
+    <title>Window Simulator</title>
+</head>
+<body>
+    
+    <div class="simulator">
+    <div class="simulator_process">
+        <h3>SIMULATION PROCESS OF WANNACRY</h3>
+        <ul>
+            <li>now you can access the data file</li>
+            <li>if you touch the suspecious file then data file will encrypted</li>
+            <li>You must need an decryption key to get acess of the data file</li>
+            <li>decryption key [<span><a>#*36dgh$ybw!*tj357%20$xrykdt</a></span>]</li>
+        </ul>
+
+    </div>
+
+    <div class="window" class="encrypt">
+        <div class="title-bar">
+            <span class="title">Window Simulator</span>
+            <button class="close-button"></button>
+        </div>
+        <div class="content" >
+            
+            <button class="open-file-button" id="op1">
+                <img class="img" src="img/document.png" >
+                <p class="txt">data.txt</p>
+            </button>
+            <button class="open-file-button" id="op2">
+                <img class="img" src="img/document.png" >
+                <p class="txt" id="enc">WannaCry<br>.txt</p>
+            </button>
+            <button class="open-file-button" id="op4">
+                <img class="img" src="img/Screenshot from 2023-10-05 15-15-23.png" >
+                <p class="txt" id="enc2">Cerber.exe</p>
+            </button>
+            <button class="open-file-button" id="op5">
+                <img class="img" src="img/document.png" >
+                <p class="txt" >file<br>.txt</p>
+            </button>
+            <button class="open-file-button" id="op3">
+                <img class="img" src="img/folder.png" >
+                <p class="txt">new<span> folder</span></p>
+            </button>
+            <div class="file-content" style="display:none;">
+                <div class="window1">
+                    <div class="title-bar1">
+                        <span class="title1">My Window-1</span>
+                        <button class="close-button1">X</button>
+                    </div>
+                    <p>hi it is an data file</p>
+                </div>
+            </div>
+            
+        </div>
+        <div id="input-container"></div>
+        <div class="payment">
+            <div id="buttonContainer1"></div>
+            <div id="buttonContainer2"></div>
+        
+        </div>
+        </div>
+    </div>
+    <script src="js/three.js">
+    </script>
+</body>
+</html>
