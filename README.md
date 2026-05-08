@@ -1,6 +1,6 @@
 > **Stay Secure Against Ransomware Threats**
 
- he tool evaluates an organization's preparedness against ransomware attacks, ensuring they are adequately prepared to combat this growing threat and adopt a proactive approach.
+ The tool evaluates an organization's preparedness against ransomware attacks, ensuring they are adequately prepared to combat this growing threat and adopt a proactive approach.
 
 **We Hosted the sample web page in Netlify: https://ransomwareassesmenttool.netlify.app/
 **
